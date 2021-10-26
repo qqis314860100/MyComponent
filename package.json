@@ -22,11 +22,16 @@
     "test": "npm run test:unit && npm run test:e2e",
     "compile": "gulp compile",
     "patch": "npm version patch",
-  "commit":"cz"
+  "commit":"git-cz"
   },
   "publishConfig": {
     "access": "public",
     "registry": "http://registry.npmjs.org"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    }
   },
   "keywords": [
     "react",
