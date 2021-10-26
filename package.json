@@ -1,6 +1,6 @@
 {
-  "name": "@zhangry/antd",
-  "version": "1.1.2",
+  "name": "@tomtong/components",
+  "version": "1.0.1",
   "description": "React组件库",
   "main": "lib/index.js",
   "module": "es/index.js",
