@@ -11,8 +11,8 @@ module.exports = {
     },
     output: {
         path: path.resolve('dist'),//输出到dist目录
-        // filename: '[name].js',//打包后的文件 antd.css
-        // library: 'antd',//打包后库的名字
+        filename: '[name].js',//打包后的文件 antd.css
+        library: 'antd',//打包后库的名字
         libraryTarget: 'umd',//打包后模块的格式 umd amd cmd commonjs commonjs window
     },
     externals: {//组件库代码其实是不需要打包react 和react-dom进去的
