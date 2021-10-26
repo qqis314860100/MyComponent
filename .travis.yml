@@ -19,7 +19,7 @@ deploy:
     on:
       branch: master
   - provider: npm
-    email: 314860100@qq.com
+    email: 18876309817@163.com
     api_key: '$NPM_TOKEN'
     skip_cleanup: true
     on:
