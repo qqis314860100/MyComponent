@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "outDir":"build", //输出到哪个目录下
+        "module": "esnext", //选择哪种模块化标准
+        "target": "es5", //选择es几版本
+        "declaration":true,//定义：为每个js文件生成对应的.d.ts文件
+        "jsx":"react", //jsx语法代替js
+        "moduleResolution": "node", //哪种方式寻找文件 
+        "allowSyntheticDefaultImports":true,
+    },
+    "include": [ //要编译哪些文件
+        "src" //src下所有的文件
+    ],
+    "exclude": [
+        //哪些文件不需要被编译
+        "src/**/*.test.tsx",
+        "src/**/*.stories.tsx",
+    ]
+  }
+  
