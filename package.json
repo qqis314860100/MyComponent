@@ -14,7 +14,7 @@
   "scripts": {
     "build": "webpack",
     "storybook": "start-storybook -p 7006",
-    "build-storybook": "build-storybook",
+    "build-storybook": "export NODE_OPTIONS=--openssl-legacy-provider;build-storybook",
     "test:unit": "jest --config unit.jest.js",
     "test:e2e": "jest --config e2e.jest.js",
     "test": "npm run test:unit && npm run test:e2e",
